@@ -21,7 +21,6 @@ Provide the output in markdown format with references explicitly attached that c
 ## Quantitative Analysis of US Tariffs on Colombian Exports
 *By: Senior Economist, [Your Name]*  
 *Date: 2025-01-29*  
-
 ---
 
 ## 1. Sectoral Elasticities  
