@@ -88,7 +88,7 @@ $$
   $$  
   \text{Effective Loss} = \text{Revenue Loss} \times 1.3 \quad (\text{30\% premium for wasted inventory})  
   $$  
-  Total flower losses: $480M \times 1.3 = **$624M**.  
+  Total flower losses: $480M x 1.3 = **$624M**.  
 
 **Assumptions**:  
 - No alternative markets absorb surplus within 7 days (flower shelf life).  
