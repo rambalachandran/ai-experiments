@@ -28,7 +28,7 @@ Provide the output in markdown format with references explicitly attached that c
 
 ### Model Specification  
 Price elasticity of demand ($\varepsilon$) is calculated as:  
-$$ \varepsilon = \frac{\% \Delta Q}{\% \Delta P} $$  
+$$\varepsilon = \frac{\% \Delta Q}{\% \Delta P}$$  
 Where:  
 - $\% \Delta Q$: Percentage change in quantity demanded  
 - $\% \Delta P$: Percentage change in price (tariff-induced)  
