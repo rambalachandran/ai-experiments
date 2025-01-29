@@ -17,29 +17,32 @@ You are a senior economist advising the Colombian government on the potential ec
 ```
 Provide the output in markdown format with references explicitly attached that can be copied to a report. Also make the models more detailed and all assumptions more explicit and provide limitations of the modeling in detail as well
 ```
-# Output from DeepSeek DeepThink-R1
-## Quantitative Analysis of US Tariffs on Colombian Exports
+# Outputs
+# Quantitative Analysis of US Tariffs on Colombian Exports  
+**Prepared for the Colombian Government**  
 *By: Senior Economist, [Your Name]*  
 *Date: 2025-01-29*  
+
 ---
 
 ## 1. Sectoral Elasticities  
 
 ### Model Specification  
-Price elasticity of demand (ε) is calculated as:  
-
-$\varepsilon = \frac{\% \Delta Q}{\% \Delta P}$
-
+Price elasticity of demand ($\varepsilon$) is calculated as:  
+$$  
+\varepsilon = \frac{\% \Delta Q}{\% \Delta P}  
+$$  
 Where:  
 - $\% \Delta Q$: Percentage change in quantity demanded  
 - $\% \Delta P$: Percentage change in price (tariff-induced)  
 
 **Sector-Specific Elasticities** (derived from historical trade data [1][2]):  
-| Sector     | Elasticity (ε) | Rationale                                                                 |  
-|------------|---------------|---------------------------------------------------------------------------|  
-| Petroleum  | -0.2          | Low substitution: US imports 6% of crude from Colombia (limited alternatives) [3] |  
-| Coffee     | -0.6          | Moderate substitution: Competition from Brazil/Vietnam (20% US market share) [4] |  
-| Flowers    | -1.2          | High substitution: Perishability limits re-routing (~70% Valentine's Day share) [5] |  
+
+| Sector     | Elasticity ($\varepsilon$) | Rationale                                                                 |  
+|------------|----------------------------|---------------------------------------------------------------------------|  
+| Petroleum  | -0.2                       | Low substitution: US imports 6% of crude from Colombia (limited alternatives) [3] |  
+| Coffee     | -0.6                       | Moderate substitution: Competition from Brazil/Vietnam (20% US market share) [4] |  
+| Flowers    | -1.2                       | High substitution: Perishability limits re-routing (~70% Valentine’s Day share) [5] |  
 
 **Assumptions**:  
 1. Full tariff pass-through to US consumers (no absorption by Colombian exporters).  
@@ -50,6 +53,7 @@ Where:
 ## 2. Trade Flows  
 
 ### Baseline Data (2023–2024) [6][7]:  
+
 | Sector        | Export Value to US (2023) | US Market Share |  
 |---------------|---------------------------|-----------------|  
 | Petroleum     | $5.4B                     | 6%              |  
@@ -57,29 +61,21 @@ Where:
 | Flowers       | $1.6B                     | 70%             |  
 
 ### Tariff Impact Formula:  
-$\% \Delta Q = \varepsilon \times \text{Tariff Rate}$
-
-$\text{Revenue Loss} = \text{Export Value} \times (1 - \frac{1}{1 + \% \Delta Q})$
-
-### Model Adjustments:  
-$\text{Effective Loss} = \text{Revenue Loss} \times 1.3$ (30% premium for wasted inventory)
-
-### GDP Contraction Formula:  
-$\Delta \text{GDP} = (\text{Direct Export Loss} + \text{Import Substitution Costs}) \times \text{Multiplier}$
-
-### Direct Job Loss Formula:  
-$\text{Jobs Lost} = \frac{\text{Sectoral Revenue Loss}}{\text{Labor Productivity per Worker}}$
-
-**Unemployment Rate Increase**:  
-$\Delta \text{Unemployment} = \frac{\text{Jobs Lost}}{\text{Labor Force}} \times 100$
+$$  
+\% \Delta Q = \varepsilon \times \text{Tariff Rate}  
+$$  
+$$  
+\text{Revenue Loss} = \text{Export Value} \times \left(1 - \frac{1}{1 + \% \Delta Q}\right)  
+$$  
 
 **Calculations**:  
-| Sector        | Quantity Decline | Revenue Loss (2023) |  
-|---------------|------------------|---------------------|  
+
+| Sector        | Quantity Decline | Revenue Loss (2023)         |  
+|---------------|------------------|-----------------------------|  
 | Petroleum     | 5%               | $5.4B \times 5\% = **$270M** |  
 | Coffee        | 15%              | $1.8B \times 15\% = **$270M** |  
 | Flowers       | 30%              | $1.6B \times 30\% = **$480M** |  
-| **Total**     | —                | **$1.02B**          |  
+| **Total**     | —                | **$1.02B**                  |  
 
 ### Retaliatory Tariffs:  
 - Colombia imposes 25% tariffs on $1.7B of US imports (corn, chemicals) [8].  
@@ -92,9 +88,9 @@ $\Delta \text{Unemployment} = \frac{\text{Jobs Lost}}{\text{Labor Force}} \times
 ### Model Adjustments:  
 - **Storage Limitation**: 48,000 tons of flowers require immediate sale (Miami port data [9]).  
 - **Revenue Loss Amplification**:  
-  \[
-  \text{Effective Loss} = \text{Revenue Loss} \times 1.3 \quad (\text{30% premium for wasted inventory})
-  \]  
+  $$  
+  \text{Effective Loss} = \text{Revenue Loss} \times 1.3 \quad (\text{30% premium for wasted inventory})  
+  $$  
   Total flower losses: $480M \times 1.3 = **$624M**.  
 
 **Assumptions**:  
@@ -105,16 +101,16 @@ $\Delta \text{Unemployment} = \frac{\text{Jobs Lost}}{\text{Labor Force}} \times
 ## 4. Macroeconomic Impacts  
 
 ### GDP Contraction Formula:  
-\[
-\Delta \text{GDP} = (\text{Direct Export Loss} + \text{Import Substitution Costs}) \times \text{Multiplier}
-\]  
+$$  
+\Delta \text{GDP} = (\text{Direct Export Loss} + \text{Import Substitution Costs}) \times \text{Multiplier}  
+$$  
 - **Direct Loss**: $1.02B  
 - **Import Substitution**: $200M (retaliatory tariff savings offset by +15% input costs [10]).  
 - **Multiplier**: 1.5x (Keynesian multiplier for emerging economies [11]).  
 
-\[
-\Delta \text{GDP} = ($1.02B - $200M) \times 1.5 = **$1.23B** \quad (\text{0.4\% of 2024 GDP})
-\]  
+$$  
+\Delta \text{GDP} = ($1.02B - $200M) \times 1.5 = **$1.23B** \quad (\text{0.4\% of 2024 GDP})  
+$$  
 
 ### Trade Diversion:  
 - Oil/coffee exports to China constrained by:  
@@ -126,18 +122,18 @@ $\Delta \text{Unemployment} = \frac{\text{Jobs Lost}}{\text{Labor Force}} \times
 ## 5. Employment Impact  
 
 ### Direct Job Loss Formula:  
-\[
-\text{Jobs Lost} = \frac{\text{Sectoral Revenue Loss}}{\text{Labor Productivity per Worker}}
-\]  
+$$  
+\text{Jobs Lost} = \frac{\text{Sectoral Revenue Loss}}{\text{Labor Productivity per Worker}}  
+$$  
 - **Labor Productivity**:  
   - Petroleum: $1.08M/worker [14] → 5,000 jobs lost  
   - Coffee: $22.5k/worker [15] → 80,000 jobs lost  
   - Flowers: $106k/worker [16] → 15,000 jobs lost  
 
 **Unemployment Rate Increase**:  
-\[
-\Delta \text{Unemployment} = \frac{\text{Jobs Lost}}{\text{Labor Force}} \times 100
-\]  
+$$  
+\Delta \text{Unemployment} = \frac{\text{Jobs Lost}}{\text{Labor Force}} \times 100  
+$$  
 - Labor force: 26.8M [17] → 100,000 jobs = **+0.37% unemployment** (direct only).  
 - **Total Increase (direct + indirect)**: 0.9% (incl. logistics/retail spillovers).  
 
