@@ -19,7 +19,6 @@ Provide the output in markdown format with references explicitly attached that c
 ```
 # Outputs
 # Quantitative Analysis of US Tariffs on Colombian Exports  
-**Prepared for the Colombian Government**  
 *By: Senior Economist, [Your Name]*  
 *Date: 2025-01-29*  
 
