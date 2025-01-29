@@ -69,9 +69,9 @@ $$
 
 | Sector        | Quantity Decline | Revenue Loss (2023)         |  
 |---------------|------------------|-----------------------------|  
-| Petroleum     | 5%               | $5.4B \times 5\% = **$270M** |  
-| Coffee        | 15%              | $1.8B \times 15\% = **$270M** |  
-| Flowers       | 30%              | $1.6B \times 30\% = **$480M** |  
+| Petroleum     | 5%               | $5.4B x 5\% = **$270M** |  
+| Coffee        | 15%              | $1.8B x 15\% = **$270M** |  
+| Flowers       | 30%              | $1.6B x 30\% = **$480M** |  
 | **Total**     | —                | **$1.02B**                  |  
 
 ### Retaliatory Tariffs:  
