@@ -27,20 +27,20 @@ Provide the output in markdown format with references explicitly attached that c
 ## 1. Sectoral Elasticities  
 
 ### Model Specification  
-Price elasticity of demand (\( \varepsilon \)) is calculated as:  
-\[
-\varepsilon = \frac{\% \Delta Q}{\% \Delta P}
-\]  
+Price elasticity of demand (ε) is calculated as:  
+
+$\varepsilon = \frac{\% \Delta Q}{\% \Delta P}$
+
 Where:  
-- \( \% \Delta Q \): Percentage change in quantity demanded  
-- \( \% \Delta P \): Percentage change in price (tariff-induced)  
+- $\% \Delta Q$: Percentage change in quantity demanded  
+- $\% \Delta P$: Percentage change in price (tariff-induced)  
 
 **Sector-Specific Elasticities** (derived from historical trade data [1][2]):  
-| Sector     | Elasticity (\( \varepsilon \)) | Rationale                                                                 |  
-|------------|-------------------------------|---------------------------------------------------------------------------|  
-| Petroleum  | -0.2                          | Low substitution: US imports 6% of crude from Colombia (limited alternatives) [3] |  
-| Coffee     | -0.6                          | Moderate substitution: Competition from Brazil/Vietnam (20% US market share) [4] |  
-| Flowers    | -1.2                          | High substitution: Perishability limits re-routing (~70% Valentine’s Day share) [5] |  
+| Sector     | Elasticity (ε) | Rationale                                                                 |  
+|------------|---------------|---------------------------------------------------------------------------|  
+| Petroleum  | -0.2          | Low substitution: US imports 6% of crude from Colombia (limited alternatives) [3] |  
+| Coffee     | -0.6          | Moderate substitution: Competition from Brazil/Vietnam (20% US market share) [4] |  
+| Flowers    | -1.2          | High substitution: Perishability limits re-routing (~70% Valentine's Day share) [5] |  
 
 **Assumptions**:  
 1. Full tariff pass-through to US consumers (no absorption by Colombian exporters).  
@@ -58,12 +58,21 @@ Where:
 | Flowers       | $1.6B                     | 70%             |  
 
 ### Tariff Impact Formula:  
-\[
-\% \Delta Q = \varepsilon \times \text{Tariff Rate}  
-\]  
-\[
-\text{Revenue Loss} = \text{Export Value} \times \left(1 - \frac{1}{1 + \% \Delta Q}\right)  
-\]  
+$\% \Delta Q = \varepsilon \times \text{Tariff Rate}$
+
+$\text{Revenue Loss} = \text{Export Value} \times (1 - \frac{1}{1 + \% \Delta Q})$
+
+### Model Adjustments:  
+$\text{Effective Loss} = \text{Revenue Loss} \times 1.3$ (30% premium for wasted inventory)
+
+### GDP Contraction Formula:  
+$\Delta \text{GDP} = (\text{Direct Export Loss} + \text{Import Substitution Costs}) \times \text{Multiplier}$
+
+### Direct Job Loss Formula:  
+$\text{Jobs Lost} = \frac{\text{Sectoral Revenue Loss}}{\text{Labor Productivity per Worker}}$
+
+**Unemployment Rate Increase**:  
+$\Delta \text{Unemployment} = \frac{\text{Jobs Lost}}{\text{Labor Force}} \times 100$
 
 **Calculations**:  
 | Sector        | Quantity Decline | Revenue Loss (2023) |  
