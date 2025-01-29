@@ -88,7 +88,7 @@ $$
 - **Storage Limitation**: 48,000 tons of flowers require immediate sale (Miami port data [9]).  
 - **Revenue Loss Amplification**:  
   $$  
-  \text{Effective Loss} = \text{Revenue Loss} \times 1.3 \quad (\text{30% premium for wasted inventory})  
+  \text{Effective Loss} = \text{Revenue Loss} \times 1.3 \quad (\text{30\% premium for wasted inventory})  
   $$  
   Total flower losses: $480M \times 1.3 = **$624M**.  
 
@@ -108,7 +108,7 @@ $$
 - **Multiplier**: 1.5x (Keynesian multiplier for emerging economies [11]).  
 
 $$  
-\Delta \text{GDP} = ($1.02B - $200M) \times 1.5 = **$1.23B** \quad (\text{0.4\% of 2024 GDP})  
+\Delta \text{GDP} = (\$1.02B - \$200M) \times 1.5 = \$1.23B \quad (\text{0.4\% of 2024 GDP})  
 $$  
 
 ### Trade Diversion:  
